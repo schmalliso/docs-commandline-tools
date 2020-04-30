@@ -1,7 +1,7 @@
 name = "docs-commandline-tools"
 title = "MongoDB Database Tools"
 
-intersphinx = ["https://docs.mongodb.com/master/objects.inv"]
+intersphinx = ["https://docs.mongodb.com/master/mongodb.inv"]
 
 toc_landing_pages = ["/"]
  
