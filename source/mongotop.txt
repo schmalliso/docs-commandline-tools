@@ -128,8 +128,8 @@ For example, to connect :binary:`~bin.mongotop` to a
   For more information on the URI connection string, see
   :option:`--uri <mongotop --uri>`.
 
-- Alternatively, you can use the :option:`--host <mongotop --host>`
-  and :option:`--port <mongotop --port>` options to specify the host
+- Alternatively, you can use the :option:`--host <mongotop.--host>`
+  and :option:`--port <mongotop.--port>` options to specify the host
   and port:
 
   .. code-block:: sh
