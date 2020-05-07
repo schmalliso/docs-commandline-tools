@@ -107,7 +107,7 @@ For example, to connect :binary:`~bin.mongotop` to a
 ``mongodb0.example.com`` and report every 30 seconds:
 
 - You can include the desired frequency of reporting (in this
-  example, 30 seconds) and the :option:`--uri <mongotop --uri>`
+  example, 30 seconds) and the :option:`--uri <mongotop.--uri>`
   option to specify the host and port:
 
 .. option:: --uri=<connectionString>
