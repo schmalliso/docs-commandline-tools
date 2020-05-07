@@ -81,14 +81,7 @@ reference the :manual:`MongoDB Server Documentation
    :maxdepth: 1
    :hidden:
 
-   mongodump </mongodump>
-   mongorestore </mongorestore>
-   bsondump </bsondump>
-   mongoimport </mongoimport>
-   mongoexport </mongoexport>
-   mongostat </mongostat>
    mongotop </mongotop>
-   mongofiles </mongofiles>
 
 
 MongoDB Server Compatibility

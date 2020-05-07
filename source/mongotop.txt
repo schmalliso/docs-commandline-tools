@@ -95,6 +95,10 @@ configured frequency.
 Command Line Options
 ~~~~~~~~~~~~~~~~~~~~
 
+.. binary:: mongotop
+
+.. program:: mongotop
+
 .. code-block:: sh
 
    mongotop [options] [frequency]
