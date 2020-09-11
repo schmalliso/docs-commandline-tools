@@ -128,3 +128,4 @@ Further Reading
    mongofiles </mongofiles>
    /installation
    /release-notes/database-tools-changelog
+   /foo
