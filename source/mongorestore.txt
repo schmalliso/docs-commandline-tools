@@ -652,11 +652,11 @@ Options
 .. option:: --drop
 
    Before restoring the collections from the dumped backup, drops the
-   collections from the target database. :option:`--drop <mongorestore.--drop>` does not drop
+   collections from the target database. :option:`--drop <mongorestore --drop>` does not drop
    collections that are not in the backup.
    
    When the restore includes the ``admin`` database, :program:`mongorestore` with
-   :option:`--drop <bin.mongorestore--drop>` removes all user credentials and replaces them with the
+   :option:`--drop <mongorestore--drop>` removes all user credentials and replaces them with the
    users defined in the dump file. Therefore, in systems with
    :setting:`~security.authorization` enabled, :program:`mongorestore` must be able
    to authenticate to an existing user *and* to a user defined in the
