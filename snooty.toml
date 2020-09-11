@@ -1,4 +1,4 @@
-name = "docs-commandline-tools"
+name = "database-tools"
 title = "MongoDB Database Tools"
 
 intersphinx = [ "https://docs.mongodb.com/manual/objects.inv" , "https://docs.python.org/2/objects.inv", "https://docs.python.org/2/objects.inv", "https://docs.python.org/3/objects.inv",  "https://docs.atlas.mongodb.com/objects.inv", "https://docs.mongodb.com/compass/current/objects.inv"]
