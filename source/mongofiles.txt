@@ -14,9 +14,7 @@
 .. |tool-binary| replace:: :binary:`~bin.mongofiles`
 .. |mongodb-aws-example| replace:: :ref:`mongofiles-example-connect-using-aws-iam`
 
-.. only:: (not man)
-
-   .. binary:: mongofiles
+.. binary:: mongofiles
 
 Synopsis
 --------
