@@ -547,8 +547,8 @@ Options
 .. option:: --username=<username>, -u=<username>
 
    Specifies a username with which to authenticate to a MongoDB database
-   that uses authentication. Use in conjunction with the :option:`--password` and
-   :option:`--authenticationDatabase` options.
+   that uses authentication. Use in conjunction with the :option:`--password <mongodump --password>` and
+   :option:`--authenticationDatabase <mongodump --authenticationDatabase>` options.
 
    .. include:: /includes/extracts/uri-used-with-username.rst
 
@@ -558,12 +558,13 @@ Options
 .. option:: --password=<password>, -p=<password>
 
    Specifies a password with which to authenticate to a MongoDB database
-   that uses authentication. Use in conjunction with the :option:`--username` and
-   :option:`--authenticationDatabase` options.
+   that uses authentication. Use in conjunction with the 
+   :option:`--username <mongdump --username>` and
+   :option:`--authenticationDatabase <mongodump --authenticationDatabase>` options.
 
-   To prompt the user for the password, pass the :option:`--username`
-   option without :option:`--password` or specify an empty string as the
-   :option:`--password` value, as in ``--password ""`` .
+   To prompt the user for the password, pass the :option:`--username <mongdump --username>`
+   option without :option:`--password <mongodump --password>` or specify an empty string as the
+   :option:`--password <mongodump --password>` value, as in ``--password ""`` .
 
    .. include:: /includes/extracts/uri-used-with-password.rst
 
@@ -576,7 +577,7 @@ Options
 
 .. option:: --authenticationDatabase=<dbname>
 
-   Specifies the authentication database where the specified :option:`--username` has been created.
+   Specifies the authentication database where the specified :option:`--username <mongdump --username>` has been created.
    See :ref:`user-authentication-database`.
 
    If you do not specify an authentication database, :program:`mongodump`
@@ -1029,7 +1030,8 @@ sign ``%`` characters, those characters must be converted using
 
 Alternatively, the AWS access key ID, secret access key, and optionally
 session token can each be provided outside of the connection string
-using the :option:`--username`, :option:`--password`, and
+using the :option:`--username <mongdump --username>`, 
+:option:`--password <mongodump --password>`, and
 :option:`--awsSessionToken` options instead, like so:
 
 .. code-block:: none
