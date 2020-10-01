@@ -317,7 +317,6 @@ Options
 
    .. include:: /includes/extracts/uri-used-with-authenticationdatabase.rst
 
-
 .. option:: --authenticationMechanism=<name>
 
    *Default*: SCRAM-SHA-1

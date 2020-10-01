@@ -559,10 +559,10 @@ Options
 
    Specifies a password with which to authenticate to a MongoDB database
    that uses authentication. Use in conjunction with the 
-   :option:`--username <mongdump --username>` and
+   :option:`--username <mongodump --username>` and
    :option:`--authenticationDatabase <mongodump --authenticationDatabase>` options.
 
-   To prompt the user for the password, pass the :option:`--username <mongdump --username>`
+   To prompt the user for the password, pass the :option:`--username <mongodump --username>`
    option without :option:`--password <mongodump --password>` or specify an empty string as the
    :option:`--password <mongodump --password>` value, as in ``--password ""`` .
 
@@ -577,7 +577,7 @@ Options
 
 .. option:: --authenticationDatabase=<dbname>
 
-   Specifies the authentication database where the specified :option:`--username <mongdump --username>` has been created.
+   Specifies the authentication database where the specified :option:`--username <mongodump --username>` has been created.
    See :ref:`user-authentication-database`.
 
    If you do not specify an authentication database, :program:`mongodump`
@@ -667,7 +667,6 @@ Options
    
       mongodump -d=test -c=records -q='{ "a": { "$gte": 3 }, "date": { "$lt": { "$date": "2016-01-01T00:00:00.000Z" } } }'
    
-
 
 .. option:: --queryFile=<path>
    
@@ -1030,7 +1029,7 @@ sign ``%`` characters, those characters must be converted using
 
 Alternatively, the AWS access key ID, secret access key, and optionally
 session token can each be provided outside of the connection string
-using the :option:`--username <mongdump --username>`, 
+using the :option:`--username <mongodump --username>`, 
 :option:`--password <mongodump --password>`, and
 :option:`--awsSessionToken` options instead, like so:
 
