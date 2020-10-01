@@ -85,7 +85,7 @@ inherit:
   ref: _uri-used-with
 replacement:
   task: specify the username
-  option: :option:`--username`
+  option: :option:`--username>`
 ---
 ref: uri-used-with-password
 inherit:
