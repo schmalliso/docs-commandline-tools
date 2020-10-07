@@ -734,9 +734,10 @@ Options
       - :option:`--nsInclude`
       - :option:`--nsExclude`
    
-   .. seealso:: :ref:`mongorestore Required Access <mongorestore-required-access>`
+   .. seealso:: 
    
-   .. seealso:: :option:`mongodump --oplog`
+      - :ref:`mongorestore Required Access <mongorestore-required-access>`
+      - :option:`mongodump --oplog`
 
 
 .. option:: --oplogLimit=<timestamp>
