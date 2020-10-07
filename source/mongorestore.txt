@@ -934,8 +934,8 @@ Options
       - You cannot use the ``--archive`` option with the :option:`--dir`
         option. 
    
-      - If you use the :option:`--archive` option with the :option:`\<path\>`
-        parameter, :program:`mongorestore` ignores :option:`\<path\>` parameter.
+      - If you use the :option:`--archive` option with the ``<path>``
+        parameter, :program:`mongorestore` ignores ``<path>`` parameter.
     
       - :program:`mongorestore` still supports the positional ``-`` parameter to
         restore a *single* collection from the standard input.
