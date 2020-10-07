@@ -809,7 +809,9 @@ Options
    document more than once if a write operation interleaves with the
    operation to cause the document to move.
    
-   .. warning:: Use :option:`--forceTableScan` with extreme caution
+   .. warning:: 
+   
+      Use :option:`--forceTableScan` with extreme caution
       and consideration.
 
 

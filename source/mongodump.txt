@@ -828,7 +828,9 @@ Options
       - :option:`--db`
       - :option:`--collection`
    
-   .. seealso:: :option:`mongorestore --oplogReplay`
+   .. seealso:: 
+   
+      :option:`mongorestore --oplogReplay`
 
 
 .. option:: --dumpDbUsersAndRoles
