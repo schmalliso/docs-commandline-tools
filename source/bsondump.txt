@@ -113,7 +113,7 @@ Options
    Validates each :term:`BSON` object before outputting it in :term:`JSON`
    format. By default, :program:`bsondump` enables :option:`--objcheck <bsondump --objcheck>`.
    For objects with a high degree of sub-document nesting,
-   :option:`--objcheck <bsondump--objcheck>` can have a small impact on performance.
+   :option:`--objcheck <bsondump --objcheck>` can have a small impact on performance.
 
 
 .. option:: --type=<json|debug>
