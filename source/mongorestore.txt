@@ -161,7 +161,7 @@ Rebuild Indexes
    To avoid this issue, consider using hashed indexes or indexing a
    computed value instead. If you want to resolve the index issue after
    restoring the data, you can disable the default index key length
-   validation on the target database by setting the :program:`mongod`
+   validation on the target database by setting the :binary:`~bin.mongod`
    instance's :parameter:`failIndexKeyTooLong` parameter to false.
 
 Version Compatibility
