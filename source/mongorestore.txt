@@ -942,7 +942,6 @@ Options
 
 
 .. option:: /<path/>
-
    
    The directory path or BSON file name from which to restore data.
    
