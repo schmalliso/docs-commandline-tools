@@ -934,14 +934,14 @@ Options
       - You cannot use the ``--archive`` option with the :option:`--dir`
         option. 
    
-      - If you use the :option:`--archive` option with the :option:`\<path\>`
+      - If you use the :option:`--archive` option with the :option:`/<path/>`
         parameter, :program:`mongorestore` ignores ``<path>`` parameter.
     
       - :program:`mongorestore` still supports the positional ``-`` parameter to
         restore a *single* collection from the standard input.
 
 
-.. option:: \<path\>
+.. option:: /<path/>
 
    
    The directory path or BSON file name from which to restore data.
