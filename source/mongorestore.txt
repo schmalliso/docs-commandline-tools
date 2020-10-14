@@ -941,7 +941,7 @@ Options
         restore a *single* collection from the standard input.
 
 
-.. option:: /<path/>
+.. option:: <path>
    
    The directory path or BSON file name from which to restore data.
    
