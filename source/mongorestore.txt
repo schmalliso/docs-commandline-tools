@@ -241,7 +241,7 @@ additional privileges:
        <create-user-defined-role>` that has :authaction:`anyAction`
        on :ref:`resource-anyresource`.
 
-       Grant only to users who must run :binary:`~bin.mongorestore`
+       Grant only to users who must run :binary:`mongorestore`
        with :option:`--oplogReplay <mongorestore --oplogReplay>`.
 
 Usage in Backup Strategy
@@ -723,9 +723,15 @@ Options
    .. note::
    
       When using :binary:`~bin.mongorestore` with :option:`--oplogReplay` to restore
+<<<<<<< HEAD
       a replica set, you must restore a full dump of a :term:`replica set` member created 
       using :option:`mongodump --oplog`. 
 
+=======
+      a replica set, you must 
+      restore a full dump of a :term:`replica set` member created 
+      using :binary:`mongodump --oplog <mongodump>`. 
+>>>>>>> fix bracket escaping
       :binary:`~bin.mongorestore` with :option:`--oplogReplay` fails if you use any of 
       the following options to limit the data to be restored:
    
@@ -943,15 +949,13 @@ Options
       - You cannot use the ``--archive`` option with the :option:`--dir`
         option. 
    
-      - If you use the :option:`--archive` option with the ``<path>``
+      - If you use the :option:`--archive` option with the :option:`\<path\>`
         parameter, :program:`mongorestore` ignores ``<path>`` parameter.
     
       - :program:`mongorestore` still supports the positional ``-`` parameter to
         restore a *single* collection from the standard input.
 
-
 .. option:: <path>
-
    
    The directory path or BSON file name from which to restore data.
    
