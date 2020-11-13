@@ -723,15 +723,9 @@ Options
    .. note::
    
       When using :binary:`~bin.mongorestore` with :option:`--oplogReplay` to restore
-<<<<<<< HEAD
-      a replica set, you must restore a full dump of a :term:`replica set` member created 
-      using :option:`mongodump --oplog`. 
-
-=======
       a replica set, you must 
       restore a full dump of a :term:`replica set` member created 
-      using :binary:`mongodump --oplog <mongodump>`. 
->>>>>>> fix bracket escaping
+      using :option:`mongodump --oplog <mongodump --oplog>`. 
       :binary:`~bin.mongorestore` with :option:`--oplogReplay` fails if you use any of 
       the following options to limit the data to be restored:
    
