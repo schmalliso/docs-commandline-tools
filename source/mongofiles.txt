@@ -544,7 +544,7 @@ Commands
    :option:`--local <mongofiles --local>` option **cannot** be used if
    specifying *more than one* ``filename`` to the ``get`` command.
 
-   .. note:
+   .. note::
 
       To copy files from GridFS storage that match a regular expression,
       use the ``get_regex`` command instead.
